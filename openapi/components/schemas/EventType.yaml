@@ -45,6 +45,8 @@ enum:
   - payment-instrument-modified
   - payout-request-created
   - payout-request-modified
+  - product-activated
+  - product-deactivated
   - ready-to-pay-requested
   - renewal-invoice-issued
   - renewal-invoice-payment-canceled
