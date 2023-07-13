@@ -1417,6 +1417,12 @@ x-webhooks:
   payout-request-modified:
     post:
       $ref: ./webhooks/payout-request-modified.yaml
+  product-activated:
+    post:
+      $ref: ./webhooks/product-activated.yaml
+  product-deactivated:
+    post:
+      $ref: ./webhooks/product-deactivated.yaml
   renewal-invoice-issued:
     post:
       $ref: ./webhooks/renewal-invoice-issued.yaml
